@@ -1,7 +1,7 @@
 class Ufag < Formula
   desc "Ultra fast anagram generator"
   homepage "https://github.com/sliedes/ufag"
-  head "https://github.com/sliedes/ufag.git", :revision => "46759e14ef12224d065dbcca7bbcf10bff9f651d"
+  head "https://github.com/sliedes/ufag.git"
 
   depends_on "icu4c" => :build
   depends_on "boost" => :build

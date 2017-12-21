@@ -3,8 +3,9 @@ class Ufag < Formula
   homepage "https://github.com/sliedes/ufag"
   head "https://github.com/sliedes/ufag.git"
 
-  depends_on "icu4c" => :build
-  depends_on "boost" => :build
+  depends_on "icu4c"
+  depends_on "boost"
+  depends_on "gmp"
   depends_on "llvm" => :build
 
   def install
